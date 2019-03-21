@@ -1,5 +1,4 @@
 language: node_js
 node_js:
-  - '6.9.5'
-  - '7.5.0'
+  - "10"
 before_script: yarn install
