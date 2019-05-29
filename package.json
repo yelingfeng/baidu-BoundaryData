@@ -1,11 +1,12 @@
 {
   "name": "baidu-boundarydata",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "baidu boundarydata ",
   "main": "src/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve --open",
+    "dev": "vue-cli-service serve --open",
     "build": "bili --format cjs,umd,umd-min",
+    "test":"jest",
     "push": "npm publish"
   },
   "repository": {
@@ -36,6 +37,7 @@
     "cross-env": "^5.2.0",
     "eslint": "^5.10.0",
     "eslint-config-yelingfeng": "^1.1.0",
+    "jest": "^24.5.0",
     "vue": "^2.5.21",
     "vue-template-compiler": "^2.5.21"
   }

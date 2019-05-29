@@ -12,7 +12,7 @@ export default {
     return {};
   },
   mounted() {
-    console.log(b);
+    console.log(b.changsha);
   }
 };
 </script>
