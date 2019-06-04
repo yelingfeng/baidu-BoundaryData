@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vue-cli-service serve --open",
     "build": "bili --format cjs,umd,umd-min",
-    "test":"jest",
+    "test": "vue-cli-service test:unit",
     "push": "npm publish"
   },
   "repository": {
@@ -26,10 +26,18 @@
     "dist",
     "*.md"
   ],
+  "jest": {
+    "browser": true,
+    "collectCoverage": true,
+    "transform": {
+        "^.+\\.js$": "babel-jest"
+    }
+  },
   "homepage": "https://github.com/yelingfeng/baidu-BoundaryData#readme",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
     "@vue/cli-plugin-eslint": "^3.2.1",
+    "@vue/cli-plugin-unit-jest": "^3.8.0",
     "@vue/cli-service": "^3.2.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
@@ -37,7 +45,7 @@
     "cross-env": "^5.2.0",
     "eslint": "^5.10.0",
     "eslint-config-yelingfeng": "^1.1.0",
-    "jest": "^24.5.0",
+    "jest": "^24.8.0",
     "vue": "^2.5.21",
     "vue-template-compiler": "^2.5.21"
   }
