@@ -5,12 +5,14 @@
 </template>
 
 <script>
+import b from "../src/index.js";
 export default {
   name: "exampleApp",
   data() {
     return {};
   },
-  mounted(){
+  mounted() {
+    console.log(b.changsha);
   }
 };
 </script>
