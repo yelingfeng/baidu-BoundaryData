@@ -4,6 +4,7 @@ const jilin = require('./province/jilin')
 const shanxi = require('./province/shanxi')
 const haikou = require('./province/haikou')
 const changsha = require( './province/changsha')
+const jiangsu = require('./province/jiangsu')
 
 module.exports = {
     qinghai,
@@ -11,5 +12,6 @@ module.exports = {
     jilin,
     shanxi,
     haikou,
-    changsha
+    changsha,
+    jiangsu
 }
