@@ -1,6 +1,6 @@
 {
   "name": "baidu-boundarydata",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "baidu boundarydata ",
   "main": "src/index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "browser": true,
     "collectCoverage": true,
     "transform": {
-        "^.+\\.js$": "babel-jest"
+      "^.+\\.js$": "babel-jest"
     }
   },
   "homepage": "https://github.com/yelingfeng/baidu-BoundaryData#readme",
@@ -43,10 +43,16 @@
     "babel-eslint": "^10.0.1",
     "bili": "^3.4.2",
     "cross-env": "^5.2.0",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^5.10.0",
     "eslint-config-yelingfeng": "^1.1.0",
     "jest": "^24.8.0",
     "vue": "^2.5.21",
     "vue-template-compiler": "^2.5.21"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
