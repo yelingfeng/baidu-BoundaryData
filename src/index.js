@@ -35,6 +35,7 @@ const xianggang = require('./province/xianggang')
 const aomen = require('./province/aomen')
 const beijing = require('./province/beijing')
 const tianjing = require('./province/tianjing')
+const guangdong = require('./province/guangdong')
 
 module.exports = {
     qinghai,
@@ -73,5 +74,6 @@ module.exports = {
     xianggang,
     aomen,
     beijing,
-    tianjing
+    tianjing,
+    guangdong
 }
